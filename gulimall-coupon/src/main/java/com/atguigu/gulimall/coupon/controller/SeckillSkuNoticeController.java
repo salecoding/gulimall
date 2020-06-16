@@ -1,8 +1,9 @@
 package com.atguigu.gulimall.coupon.controller;
 
-import java.util.Arrays;
-import java.util.Map;
-
+import com.atguigu.common.utils.PageUtils;
+import com.atguigu.common.utils.R;
+import com.atguigu.gulimall.coupon.entity.SeckillSkuNoticeEntity;
+import com.atguigu.gulimall.coupon.service.SeckillSkuNoticeService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -11,19 +12,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.atguigu.gulimall.coupon.entity.SeckillSkuNoticeEntity;
-import com.atguigu.gulimall.coupon.service.SeckillSkuNoticeService;
-import com.atguigu.common.utils.PageUtils;
-import com.atguigu.common.utils.R;
+import java.util.Arrays;
+import java.util.Map;
 
 
 
 /**
  * 秒杀商品通知订阅
  *
- * @author salecoding
- * @email salecoding@gmail.com
- * @date 2020-06-01 20:16:43
+ * @author leifengyang
+ * @email leifengyang@gmail.com
+ * @date 2019-10-08 09:36:39
  */
 @RestController
 @RequestMapping("coupon/seckillskunotice")

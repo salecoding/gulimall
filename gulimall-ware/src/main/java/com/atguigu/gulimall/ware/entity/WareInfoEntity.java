@@ -10,9 +10,9 @@ import lombok.Data;
 /**
  * 仓库信息
  * 
- * @author salecoding
- * @email salecoding@gmail.com
- * @date 2020-06-01 21:15:55
+ * @author leifengyang
+ * @email leifengyang@gmail.com
+ * @date 2019-10-08 09:59:40
  */
 @Data
 @TableName("wms_ware_info")

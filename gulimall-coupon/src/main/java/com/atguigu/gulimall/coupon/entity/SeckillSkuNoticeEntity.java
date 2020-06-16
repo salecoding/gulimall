@@ -10,9 +10,9 @@ import lombok.Data;
 /**
  * 秒杀商品通知订阅
  * 
- * @author salecoding
- * @email salecoding@gmail.com
- * @date 2020-06-01 20:16:43
+ * @author leifengyang
+ * @email leifengyang@gmail.com
+ * @date 2019-10-08 09:36:39
  */
 @Data
 @TableName("sms_seckill_sku_notice")

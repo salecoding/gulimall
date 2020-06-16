@@ -9,9 +9,9 @@ import java.util.Map;
 /**
  * 首页轮播广告
  *
- * @author salecoding
- * @email salecoding@gmail.com
- * @date 2020-06-01 20:16:43
+ * @author leifengyang
+ * @email leifengyang@gmail.com
+ * @date 2019-10-08 09:36:40
  */
 public interface HomeAdvService extends IService<HomeAdvEntity> {
 

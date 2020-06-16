@@ -78,10 +78,10 @@
 </template>
 
 <script>
-import {treeDataTranslate} from '@/utils'
-import Icon from '@/icons'
+  import {treeDataTranslate} from '@/utils'
+  import Icon from '@/icons'
 
-export default {
+  export default {
     data () {
       var validateUrl = (rule, value, callback) => {
         if (this.dataForm.type === 1 && !/\S/.test(value)) {
@@ -107,13 +107,13 @@ export default {
         },
         dataRule: {
           name: [
-            { required: true, message: '菜单名称不能为空', trigger: 'blur' }
+              { required: true, message: '菜单名称不能为空', trigger: 'blur' }
           ],
           parentName: [
-            { required: true, message: '上级菜单不能为空', trigger: 'change' }
+              { required: true, message: '上级菜单不能为空', trigger: 'change' }
           ],
           url: [
-            { validator: validateUrl, trigger: 'blur' }
+              { validator: validateUrl, trigger: 'blur' }
           ]
         },
         menuList: [],
@@ -142,10 +142,10 @@ export default {
           })
         }).then(() => {
           if (!this.dataForm.id) {
-            // 新增
+              // 新增
             this.menuListTreeSetCurrentNode()
           } else {
-            // 修改
+              // 修改
             this.$http({
               url: this.$http.adornUrl(`/sys/menu/info/${this.dataForm.id}`),
               method: 'get',

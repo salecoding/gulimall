@@ -11,9 +11,9 @@ import lombok.Data;
 /**
  * 优惠券信息
  * 
- * @author salecoding
- * @email salecoding@gmail.com
- * @date 2020-06-01 20:16:43
+ * @author leifengyang
+ * @email leifengyang@gmail.com
+ * @date 2019-10-08 09:36:40
  */
 @Data
 @TableName("sms_coupon")
